@@ -1,0 +1,19 @@
+mqtt:
+  host: *
+  port: 1883
+  user: *
+  pass: *
+  
+weatherstation:
+  temperature:
+    topic: weather/remotetemp
+  humidity:
+    topic: weather/remotehum
+  
+openweathermap:
+  host: http://api.openweathermap.org
+  port: 80
+  endpoint: /data/2.5/forecast
+  token: *
+  location: *
+  
